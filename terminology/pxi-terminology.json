@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "name": "PXI模块仪器专业术语库",
+    "description": "简仪科技PXI模块仪器、数据采集、测试测量领域专业术语库",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-02",
+    "domain": "instrumentation",
+    "language": {
+      "source": "en",
+      "target": "zh"
+    },
+    "categories": [
+      "hardware",
+      "software",
+      "measurement",
+      "signal",
+      "communication",
+      "specification",
+      "operation",
+      "maintenance"
+    ]
+  },
+  "terms": [
+    {
+      "id": "pxi_001",
+      "sourceText": "PXI Module",
+      "targetText": "PXI模块",
+      "category": "hardware",
+      "domain": "pxi",
+      "confidence": 0.99,
+      "frequency": 250,
+      "context": [
+        "PXI module configuration",
+        "module installation",
+        "modular instrumentation"
+      ],
+      "notes": "PXI (PCI eXtensions for Instrumentation) 是基于PCI总线的模块化仪器标准",
+      "verified": true,
+      "synonyms": ["PXI Card", "PXI Instrument"],
+      "relatedTerms": ["PXI Chassis", "PXI Controller", "PXI Backplane"]
+    },
+    {
+      "id": "pxi_002",
+      "sourceText": "PXI Chassis",
+      "targetText": "PXI机箱",
+      "category": "hardware",
+      "domain": "pxi",
+      "confidence": 0.99,
+      "frequency": 180,
+      "context": [
+        "chassis configuration",
+        "slot allocation",
+        "power distribution"
+      ],
+      "notes": "PXI机箱提供模块化仪器的机械和电气连接",
+      "verified": true,
+      "synonyms": ["PXI Mainframe"],
+      "relatedTerms": ["PXI Module", "PXI Backplane", "PXI Controller"]
+    },
+    {
+      "id": "daq_001",
+      "sourceText": "Data Acquisition",
+      "targetText": "数据采集",
+      "category": "measurement",
+      "domain": "daq",
+      "confidence": 0.99,
+      "frequency": 300,
+      "context": [
+        "data acquisition system",
+        "real-time data acquisition",
+        "high-speed sampling"
+      ],
+      "notes": "从传感器或其他信号源获取模拟或数字信号的过程",
+      "verified": true,
+      "synonyms": ["DAQ", "Data Logging"],
+      "relatedTerms": ["ADC", "Sampling Rate", "Signal Conditioning"]
+    },
+    {
+      "id": "daq_002",
+      "sourceText": "Analog-to-Digital Converter",
+      "targetText": "模数转换器",
+      "category": "hardware",
+      "domain": "daq",
+      "confidence": 0.98,
+      "frequency": 150,
+      "context": [
+        "ADC resolution",
+        "conversion accuracy",
+        "sampling frequency"
+      ],
+      "notes": "将连续的模拟信号转换为离散的数字信号的电路",
+      "verified": true,
+      "synonyms": ["ADC", "A/D Converter"],
+      "relatedTerms": ["DAC", "Resolution", "Quantization"]
+    },
+    {
+      "id": "sig_001",
+      "sourceText": "Signal Conditioning",
+      "targetText": "信号调理",
+      "category": "signal",
+      "domain": "signal",
+      "confidence": 0.97,
+      "frequency": 200,
+      "context": [
+        "signal conditioning module",
+        "analog signal conditioning",
+        "sensor signal processing"
+      ],
+      "notes": "对传感器输出信号进行放大、滤波、隔离等处理",
+      "verified": true,
+      "synonyms": ["Signal Processing"],
+      "relatedTerms": ["Amplification", "Filtering", "Isolation"]
+    },
+    {
+      "id": "sig_002",
+      "sourceText": "Sampling Rate",
+      "targetText": "采样率",
+      "category": "specification",
+      "domain": "daq",
+      "confidence": 0.99,
+      "frequency": 180,
+      "context": [
+        "maximum sampling rate",
+        "sampling frequency",
+        "Nyquist theorem"
+      ],
+      "notes": "每秒钟采集信号样本的次数，通常以Hz或S/s表示",
+      "verified": true,
+      "synonyms": ["Sampling Frequency", "Sample Rate"],
+      "relatedTerms": ["Nyquist Frequency", "Aliasing", "Bandwidth"]
+    },
+    {
+      "id": "test_001",
+      "sourceText": "Test Measurement",
+      "targetText": "测试测量",
+      "category": "measurement",
+      "domain": "test",
+      "confidence": 0.98,
+      "frequency": 220,
+      "context": [
+        "automated test measurement",
+        "precision measurement",
+        "measurement accuracy"
+      ],
+      "notes": "使用仪器设备对被测对象进行定量分析的过程",
+      "verified": true,
+      "synonyms": ["T&M", "Test & Measurement"],
+      "relatedTerms": ["Calibration", "Accuracy", "Precision"]
+    },
+    {
+      "id": "test_002",
+      "sourceText": "Automated Test Equipment",
+      "targetText": "自动测试设备",
+      "category": "hardware",
+      "domain": "test",
+      "confidence": 0.97,
+      "frequency": 120,
+      "context": [
+        "ATE system",
+        "automated testing",
+        "production test"
+      ],
+      "notes": "用于自动执行测试程序的设备系统",
+      "verified": true,
+      "synonyms": ["ATE"],
+      "relatedTerms": ["Test Program", "DUT", "Test Fixture"]
+    },
+    {
+      "id": "comm_001",
+      "sourceText": "VISA",
+      "targetText": "VISA",
+      "category": "software",
+      "domain": "communication",
+      "confidence": 0.95,
+      "frequency": 100,
+      "context": [
+        "VISA driver",
+        "instrument communication",
+        "VISA runtime"
+      ],
+      "notes": "Virtual Instrument Software Architecture，虚拟仪器软件架构标准",
+      "verified": true,
+      "synonyms": ["Virtual Instrument Software Architecture"],
+      "relatedTerms": ["IVI", "SCPI", "Driver"]
+    },
+    {
+      "id": "comm_002",
+      "sourceText": "SCPI",
+      "targetText": "SCPI",
+      "category": "software",
+      "domain": "communication",
+      "confidence": 0.95,
+      "frequency": 90,
+      "context": [
+        "SCPI commands",
+        "instrument control",
+        "standard commands"
+      ],
+      "notes": "Standard Commands for Programmable Instruments，可编程仪器标准命令",
+      "verified": true,
+      "synonyms": ["Standard Commands for Programmable Instruments"],
+      "relatedTerms": ["VISA", "IEEE 488", "Remote Control"]
+    },
+    {
+      "id": "spec_001",
+      "sourceText": "Resolution",
+      "targetText": "分辨率",
+      "category": "specification",
+      "domain": "measurement",
+      "confidence": 0.99,
+      "frequency": 160,
+      "context": [
+        "measurement resolution",
+        "ADC resolution",
+        "display resolution"
+      ],
+      "notes": "仪器能够区分的最小信号变化量",
+      "verified": true,
+      "synonyms": ["Precision"],
+      "relatedTerms": ["Accuracy", "Sensitivity", "LSB"]
+    },
+    {
+      "id": "spec_002",
+      "sourceText": "Accuracy",
+      "targetText": "精度",
+      "category": "specification",
+      "domain": "measurement",
+      "confidence": 0.99,
+      "frequency": 170,
+      "context": [
+        "measurement accuracy",
+        "calibration accuracy",
+        "system accuracy"
+      ],
+      "notes": "测量值与真实值之间的接近程度",
+      "verified": true,
+      "synonyms": ["Precision"],
+      "relatedTerms": ["Resolution", "Uncertainty", "Error"]
+    },
+    {
+      "id": "spec_003",
+      "sourceText": "Bandwidth",
+      "targetText": "带宽",
+      "category": "specification",
+      "domain": "signal",
+      "confidence": 0.98,
+      "frequency": 140,
+      "context": [
+        "frequency bandwidth",
+        "analog bandwidth",
+        "digital bandwidth"
+      ],
+      "notes": "信号或系统的频率响应范围",
+      "verified": true,
+      "synonyms": ["Frequency Range"],
+      "relatedTerms": ["Frequency Response", "Cutoff Frequency", "Passband"]
+    },
+    {
+      "id": "op_001",
+      "sourceText": "Calibration",
+      "targetText": "校准",
+      "category": "operation",
+      "domain": "maintenance",
+      "confidence": 0.99,
+      "frequency": 130,
+      "context": [
+        "instrument calibration",
+        "calibration procedure",
+        "calibration certificate"
+      ],
+      "notes": "通过与已知标准比较来确定仪器准确度的过程",
+      "verified": true,
+      "synonyms": ["Cal"],
+      "relatedTerms": ["Verification", "Adjustment", "Traceability"]
+    },
+    {
+      "id": "op_002",
+      "sourceText": "Self-Test",
+      "targetText": "自检",
+      "category": "operation",
+      "domain": "maintenance",
+      "confidence": 0.97,
+      "frequency": 80,
+      "context": [
+        "power-on self-test",
+        "diagnostic self-test",
+        "built-in self-test"
+      ],
+      "notes": "仪器内置的自动检测功能，用于验证系统状态",
+      "verified": true,
+      "synonyms": ["Built-in Test", "BIST"],
+      "relatedTerms": ["Diagnostics", "Health Check", "Status"]
+    },
+    {
+      "id": "hw_001",
+      "sourceText": "Backplane",
+      "targetText": "背板",
+      "category": "hardware",
+      "domain": "pxi",
+      "confidence": 0.98,
+      "frequency": 70,
+      "context": [
+        "PXI backplane",
+        "backplane connectivity",
+        "slot configuration"
+      ],
+      "notes": "提供模块间电气连接的印刷电路板",
+      "verified": true,
+      "synonyms": ["Motherboard"],
+      "relatedTerms": ["Slot", "Connector", "Bus"]
+    },
+    {
+      "id": "hw_002",
+      "sourceText": "Trigger",
+      "targetText": "触发",
+      "category": "hardware",
+      "domain": "measurement",
+      "confidence": 0.98,
+      "frequency": 110,
+      "context": [
+        "trigger signal",
+        "external trigger",
+        "trigger synchronization"
+      ],
+      "notes": "启动测量或数据采集的控制信号",
+      "verified": true,
+      "synonyms": ["Sync", "Start Signal"],
+      "relatedTerms": ["Synchronization", "Timing", "Clock"]
+    },
+    {
+      "id": "sw_001",
+      "sourceText": "Driver",
+      "targetText": "驱动程序",
+      "category": "software",
+      "domain": "software",
+      "confidence": 0.99,
+      "frequency": 150,
+      "context": [
+        "instrument driver",
+        "device driver",
+        "driver installation"
+      ],
+      "notes": "控制硬件设备的软件程序",
+      "verified": true,
+      "synonyms": ["Device Driver"],
+      "relatedTerms": ["API", "SDK", "Library"]
+    },
+    {
+      "id": "sw_002",
+      "sourceText": "Virtual Instrument",
+      "targetText": "虚拟仪器",
+      "category": "software",
+      "domain": "software",
+      "confidence": 0.97,
+      "frequency": 90,
+      "context": [
+        "VI development",
+        "virtual instrumentation",
+        "software-defined instrument"
+      ],
+      "notes": "通过软件实现的仪器功能",
+      "verified": true,
+      "synonyms": ["VI", "Software Instrument"],
+      "relatedTerms": ["LabVIEW", "Software", "Programming"]
+    }
+  ],
+  "categories": {
+    "hardware": {
+      "name": "硬件",
+      "description": "物理设备和组件相关术语",
+      "color": "#1890ff"
+    },
+    "software": {
+      "name": "软件",
+      "description": "软件和编程相关术语",
+      "color": "#52c41a"
+    },
+    "measurement": {
+      "name": "测量",
+      "description": "测量和测试相关术语",
+      "color": "#faad14"
+    },
+    "signal": {
+      "name": "信号",
+      "description": "信号处理相关术语",
+      "color": "#722ed1"
+    },
+    "communication": {
+      "name": "通信",
+      "description": "通信协议和接口术语",
+      "color": "#eb2f96"
+    },
+    "specification": {
+      "name": "规格",
+      "description": "技术规格和参数术语",
+      "color": "#13c2c2"
+    },
+    "operation": {
+      "name": "操作",
+      "description": "操作和维护相关术语",
+      "color": "#fa541c"
+    },
+    "maintenance": {
+      "name": "维护",
+      "description": "维护和校准相关术语",
+      "color": "#a0d911"
+    }
+  },
+  "domains": {
+    "pxi": {
+      "name": "PXI系统",
+      "description": "PXI模块化仪器系统"
+    },
+    "daq": {
+      "name": "数据采集",
+      "description": "数据采集系统和技术"
+    },
+    "test": {
+      "name": "测试测量",
+      "description": "测试测量设备和方法"
+    },
+    "signal": {
+      "name": "信号处理",
+      "description": "信号处理和分析"
+    },
+    "communication": {
+      "name": "通信协议",
+      "description": "仪器通信和控制协议"
+    },
+    "measurement": {
+      "name": "测量技术",
+      "description": "测量原理和技术"
+    },
+    "software": {
+      "name": "软件工具",
+      "description": "仪器软件和开发工具"
+    },
+    "maintenance": {
+      "name": "维护校准",
+      "description": "设备维护和校准"
+    }
+  }
+}

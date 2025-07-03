@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "name": "简仪科技专业术语库",
+    "description": "上海简仪科技有限公司(JYTEK)锐视测控软件平台专业术语库",
+    "version": "2.0.0",
+    "lastUpdated": "2025-07-02",
+    "domain": "jytek",
+    "company": "上海简仪科技有限公司",
+    "website": "www.jytek.com",
+    "language": {
+      "source": "zh",
+      "target": "en"
+    },
+    "categories": [
+      "jytek-products",
+      "seesharp-platform",
+      "dotnet-tech",
+      "modular-instruments",
+      "data-acquisition",
+      "signal-processing",
+      "test-automation",
+      "open-source"
+    ]
+  },
+  "terms": [
+    {
+      "id": "jytek_001",
+      "sourceText": "简仪科技",
+      "targetText": "JYTEK",
+      "category": "jytek-products",
+      "domain": "company",
+      "confidence": 1.0,
+      "frequency": 500,
+      "context": [
+        "上海简仪科技有限公司",
+        "JYTEK产品",
+        "简仪科技解决方案"
+      ],
+      "notes": "上海简仪科技有限公司，专业的模块仪器和测控软件提供商",
+      "verified": true,
+      "synonyms": ["上海简仪科技", "JYTEK"],
+      "relatedTerms": ["SeeSharp", "锐视测控", "模块仪器"]
+    },
+    {
+      "id": "jytek_002",
+      "sourceText": "锐视测控软件平台",
+      "targetText": "SeeSharp Control Platform",
+      "category": "seesharp-platform",
+      "domain": "software-platform",
+      "confidence": 1.0,
+      "frequency": 400,
+      "context": [
+        "SeeSharp平台",
+        "锐视测控软件",
+        "测控平台"
+      ],
+      "notes": "简仪科技核心产品，基于Microsoft C#/.NET的专业测控软件平台",
+      "verified": true,
+      "synonyms": ["SeeSharp Platform", "锐视平台"],
+      "relatedTerms": ["SeeSharpTools", "C#/.NET", "Visual Studio"]
+    },
+    {
+      "id": "jytek_003",
+      "sourceText": "SeeSharpTools",
+      "targetText": "SeeSharpTools",
+      "category": "seesharp-platform",
+      "domain": "development-tools",
+      "confidence": 1.0,
+      "frequency": 350,
+      "context": [
+        "锐视测控程序开发工具包",
+        "SeeSharpTools开发包",
+        "开发工具"
+      ],
+      "notes": "锐视测控程序开发工具包，提供丰富的人机界面组件和开源DSP库",
+      "verified": true,
+      "synonyms": ["锐视开发工具包", "SeeSharp Tools"],
+      "relatedTerms": ["DSP", "UI Components", "Report Generation"]
+    },
+    {
+      "id": "jytek_004",
+      "sourceText": "JYDM",
+      "targetText": "JYDM",
+      "category": "jytek-products",
+      "domain": "device-management",
+      "confidence": 1.0,
+      "frequency": 200,
+      "context": [
+        "简仪设备管理器",
+        "JianYi Device Manager",
+        "设备管理工具"
+      ],
+      "notes": "简仪设备管理器，免费的设备管理和配置工具",
+      "verified": true,
+      "synonyms": ["简仪设备管理器", "JianYi Device Manager"],
+      "relatedTerms": ["Device Configuration", "Hardware Management", "PXI Modules"]
+    },
+    {
+      "id": "jytek_005",
+      "sourceText": "MISD",
+      "targetText": "MISD",
+      "category": "jytek-products",
+      "domain": "software-dictionary",
+      "confidence": 1.0,
+      "frequency": 180,
+      "context": [
+        "模块仪器软件词典",
+        "Module Instrument Software Dictionary",
+        "软件词典"
+      ],
+      "notes": "模块仪器软件词典，FirmDrive®驱动系统的核心组件",
+      "verified": true,
+      "synonyms": ["模块仪器软件词典", "Module Instrument Software Dictionary"],
+      "relatedTerms": ["FirmDrive", "Driver", "Instrument Control"]
+    },
+    {
+      "id": "jytek_006",
+      "sourceText": "FirmDrive®",
+      "targetText": "FirmDrive®",
+      "category": "jytek-products",
+      "domain": "driver-technology",
+      "confidence": 1.0,
+      "frequency": 220,
+      "context": [
+        "面向对象驱动",
+        "Object-Oriented Driver",
+        "微软认证驱动"
+      ],
+      "notes": "简仪科技面向对象驱动程序，通过微软认证",
+      "verified": true,
+      "synonyms": ["面向对象驱动", "Object-Oriented Driver"],
+      "relatedTerms": ["MISD", "Microsoft Certified", "Driver Architecture"]
+    },
+    {
+      "id": "jytek_007",
+      "sourceText": "SignalPanel",
+      "targetText": "SignalPanel",
+      "category": "jytek-products",
+      "domain": "instrument-control",
+      "confidence": 1.0,
+      "frequency": 150,
+      "context": [
+        "模块仪器软面板",
+        "仪器控制面板",
+        "软面板"
+      ],
+      "notes": "模块仪器软面板，免费的仪器控制面板工具",
+      "verified": true,
+      "synonyms": ["模块仪器软面板", "Instrument Soft Panel"],
+      "relatedTerms": ["Instrument Control", "User Interface", "PXI Modules"]
+    },
+    {
+      "id": "jytek_008",
+      "sourceText": "MACOs",
+      "targetText": "MACOs",
+      "category": "jytek-products",
+      "domain": "class-library",
+      "confidence": 1.0,
+      "frequency": 120,
+      "context": [
+        "测控类库",
+        "Test & Control Library",
+        "类库"
+      ],
+      "notes": "测控类库，FirmDrive®驱动系统的组成部分",
+      "verified": true,
+      "synonyms": ["测控类库", "Test & Control Library"],
+      "relatedTerms": ["Class Library", "FirmDrive", "C# Library"]
+    },
+    {
+      "id": "jytek_009",
+      "sourceText": "JYPEDIA",
+      "targetText": "JYPEDIA",
+      "category": "jytek-products",
+      "domain": "documentation",
+      "confidence": 1.0,
+      "frequency": 100,
+      "context": [
+        "简仪产品百科全书",
+        "产品资料",
+        "技术文档"
+      ],
+      "notes": "简仪产品百科全书，包含产品价格、资料、案例等信息",
+      "verified": true,
+      "synonyms": ["简仪百科", "JY Encyclopedia"],
+      "relatedTerms": ["Documentation", "Product Information", "Technical Support"]
+    },
+    {
+      "id": "tech_001",
+      "sourceText": "模块仪器",
+      "targetText": "Modular Instruments",
+      "category": "modular-instruments",
+      "domain": "hardware",
+      "confidence": 1.0,
+      "frequency": 300,
+      "context": [
+        "PXI模块仪器",
+        "模块化仪器",
+        "Modular Instrumentation"
+      ],
+      "notes": "基于PXI标准的模块化测试测量仪器",
+      "verified": true,
+      "synonyms": ["模块化仪器", "PXI Instruments"],
+      "relatedTerms": ["PXI", "Test & Measurement", "Instrumentation"]
+    },
+    {
+      "id": "tech_002",
+      "sourceText": "数据采集",
+      "targetText": "Data Acquisition",
+      "category": "data-acquisition",
+      "domain": "measurement",
+      "confidence": 1.0,
+      "frequency": 280,
+      "context": [
+        "DAQ系统",
+        "数据采集系统",
+        "Data Acquisition System"
+      ],
+      "notes": "基于.NET的高性能数据采集技术",
+      "verified": true,
+      "synonyms": ["DAQ", "数据采集系统"],
+      "relatedTerms": ["ADC", "Sampling", "Signal Conditioning"]
+    },
+    {
+      "id": "tech_003",
+      "sourceText": "信号处理",
+      "targetText": "Signal Processing",
+      "category": "signal-processing",
+      "domain": "dsp",
+      "confidence": 1.0,
+      "frequency": 250,
+      "context": [
+        "DSP算法",
+        "数字信号处理",
+        "Digital Signal Processing"
+      ],
+      "notes": "开源数字信号分析库，依赖Intel MKL和MATLAB MCR",
+      "verified": true,
+      "synonyms": ["DSP", "数字信号处理"],
+      "relatedTerms": ["Intel MKL", "MATLAB MCR", "Algorithm Library"]
+    },
+    {
+      "id": "dotnet_001",
+      "sourceText": "C#/.NET",
+      "targetText": "C#/.NET",
+      "category": "dotnet-tech",
+      "domain": "programming",
+      "confidence": 1.0,
+      "frequency": 400,
+      "context": [
+        "C#编程语言",
+        ".NET框架",
+        "Microsoft .NET"
+      ],
+      "notes": "简仪科技锐视平台的核心技术栈",
+      "verified": true,
+      "synonyms": ["C Sharp", "DotNet", ".NET Framework"],
+      "relatedTerms": ["Visual Studio", "Microsoft", "Object-Oriented"]
+    },
+    {
+      "id": "dotnet_002",
+      "sourceText": "Visual Studio",
+      "targetText": "Visual Studio",
+      "category": "dotnet-tech",
+      "domain": "ide",
+      "confidence": 1.0,
+      "frequency": 200,
+      "context": [
+        "VS开发环境",
+        "Microsoft Visual Studio",
+        "集成开发环境"
+      ],
+      "notes": "锐视测控软件平台深度集成的开发环境",
+      "verified": true,
+      "synonyms": ["VS", "Microsoft Visual Studio"],
+      "relatedTerms": ["IDE", "Debugging", "IntelliSense"]
+    },
+    {
+      "id": "opensource_001",
+      "sourceText": "开源",
+      "targetText": "Open Source",
+      "category": "open-source",
+      "domain": "licensing",
+      "confidence": 1.0,
+      "frequency": 180,
+      "context": [
+        "开源软件",
+        "开源生态",
+        "Open Source Software"
+      ],
+      "notes": "简仪科技支持开源锐视测控软件，客户可免费使用和发布",
+      "verified": true,
+      "synonyms": ["OSS", "开源软件"],
+      "relatedTerms": ["Free Software", "Community", "Github"]
+    },
+    {
+      "id": "opensource_002",
+      "sourceText": "免费使用",
+      "targetText": "Free to Use",
+      "category": "open-source",
+      "domain": "licensing",
+      "confidence": 1.0,
+      "frequency": 150,
+      "context": [
+        "免费软件",
+        "无许可费用",
+        "Free Software"
+      ],
+      "notes": "客户可免费使用锐视测控软件开发和发布产品",
+      "verified": true,
+      "synonyms": ["Free Software", "No License Fee"],
+      "relatedTerms": ["Open Source", "Cost Effective", "Commercial Use"]
+    },
+    {
+      "id": "comparison_001",
+      "sourceText": "替代LabVIEW",
+      "targetText": "LabVIEW Alternative",
+      "category": "market-position",
+      "domain": "competition",
+      "confidence": 1.0,
+      "frequency": 200,
+      "context": [
+        "LabVIEW替代方案",
+        "NI替代",
+        "测控软件替代"
+      ],
+      "notes": "简仪科技锐视平台作为LabVIEW的替代解决方案",
+      "verified": true,
+      "synonyms": ["LabVIEW Replacement", "NI Alternative"],
+      "relatedTerms": ["Cost Reduction", "Modern Technology", "C# Advantage"]
+    },
+    {
+      "id": "comparison_002",
+      "sourceText": "NI-DAQmx替代",
+      "targetText": "NI-DAQmx Alternative",
+      "category": "market-position",
+      "domain": "daq-software",
+      "confidence": 1.0,
+      "frequency": 150,
+      "context": [
+        "DAQ驱动替代",
+        "数据采集软件",
+        "DAQ Software"
+      ],
+      "notes": "SeeSharpTools提供的NI-DAQmx替代方案",
+      "verified": true,
+      "synonyms": ["DAQ Driver Alternative", "Data Acquisition Alternative"],
+      "relatedTerms": ["SeeSharpTools", "C# Native", "Open Source"]
+    },
+    {
+      "id": "intel_001",
+      "sourceText": "Intel MKL",
+      "targetText": "Intel MKL",
+      "category": "third-party",
+      "domain": "math-library",
+      "confidence": 1.0,
+      "frequency": 80,
+      "context": [
+        "Intel Math Kernel Library",
+        "数学核心库",
+        "算法库依赖"
+      ],
+      "notes": "SeeSharpTools DSP模块依赖的Intel数学核心库",
+      "verified": true,
+      "synonyms": ["Intel Math Kernel Library", "MKL"],
+      "relatedTerms": ["DSP", "Mathematical Functions", "Performance"]
+    },
+    {
+      "id": "matlab_001",
+      "sourceText": "MATLAB MCR",
+      "targetText": "MATLAB MCR",
+      "category": "third-party",
+      "domain": "runtime",
+      "confidence": 1.0,
+      "frequency": 70,
+      "context": [
+        "MATLAB Runtime",
+        "MathWorks运行时",
+        "算法运行环境"
+      ],
+      "notes": "SeeSharpTools DSP模块依赖的MATLAB运行时环境",
+      "verified": true,
+      "synonyms": ["MATLAB Runtime", "MathWorks Runtime"],
+      "relatedTerms": ["DSP", "Algorithm Execution", "MathWorks"]
+    },
+    {
+      "id": "cert_001",
+      "sourceText": "微软认证",
+      "targetText": "Microsoft Certified",
+      "category": "certification",
+      "domain": "quality-assurance",
+      "confidence": 1.0,
+      "frequency": 60,
+      "context": [
+        "Microsoft认证",
+        "驱动认证",
+        "质量认证"
+      ],
+      "notes": "FirmDrive®驱动程序通过微软官方认证",
+      "verified": true,
+      "synonyms": ["Microsoft Certification", "MS Certified"],
+      "relatedTerms": ["FirmDrive", "Quality Assurance", "Driver Certification"]
+    },
+    {
+      "id": "github_001",
+      "sourceText": "Github开源资源",
+      "targetText": "Github Open Source Resources",
+      "category": "open-source",
+      "domain": "code-repository",
+      "confidence": 1.0,
+      "frequency": 50,
+      "context": [
+        "Github集成",
+        "开源代码库",
+        "社区资源"
+      ],
+      "notes": "SeeSharpTools集成Github开源资源",
+      "verified": true,
+      "synonyms": ["Github Integration", "Open Source Repository"],
+      "relatedTerms": ["Open Source", "Community", "Code Sharing"]
+    }
+  ],
+  "categories": {
+    "jytek-products": {
+      "name": "简仪产品",
+      "description": "简仪科技核心产品和工具",
+      "color": "#1890ff"
+    },
+    "seesharp-platform": {
+      "name": "锐视平台",
+      "description": "SeeSharp锐视测控软件平台",
+      "color": "#52c41a"
+    },
+    "dotnet-tech": {
+      "name": ".NET技术",
+      "description": "C#/.NET技术栈",
+      "color": "#faad14"
+    },
+    "modular-instruments": {
+      "name": "模块仪器",
+      "description": "PXI模块化仪器技术",
+      "color": "#722ed1"
+    },
+    "data-acquisition": {
+      "name": "数据采集",
+      "description": "数据采集技术和系统",
+      "color": "#eb2f96"
+    },
+    "signal-processing": {
+      "name": "信号处理",
+      "description": "数字信号处理技术",
+      "color": "#13c2c2"
+    },
+    "test-automation": {
+      "name": "测试自动化",
+      "description": "自动化测试技术",
+      "color": "#fa541c"
+    },
+    "open-source": {
+      "name": "开源",
+      "description": "开源软件和许可",
+      "color": "#a0d911"
+    },
+    "market-position": {
+      "name": "市场定位",
+      "description": "与竞争对手的对比",
+      "color": "#f759ab"
+    },
+    "third-party": {
+      "name": "第三方",
+      "description": "第三方软件和库",
+      "color": "#40a9ff"
+    },
+    "certification": {
+      "name": "认证",
+      "description": "产品认证和质量保证",
+      "color": "#36cfc9"
+    }
+  },
+  "domains": {
+    "company": {
+      "name": "公司信息",
+      "description": "简仪科技公司相关信息"
+    },
+    "software-platform": {
+      "name": "软件平台",
+      "description": "锐视测控软件平台"
+    },
+    "development-tools": {
+      "name": "开发工具",
+      "description": "软件开发工具和SDK"
+    },
+    "device-management": {
+      "name": "设备管理",
+      "description": "设备管理和配置"
+    },
+    "driver-technology": {
+      "name": "驱动技术",
+      "description": "设备驱动程序技术"
+    },
+    "hardware": {
+      "name": "硬件",
+      "description": "硬件产品和设备"
+    },
+    "programming": {
+      "name": "编程",
+      "description": "编程语言和框架"
+    },
+    "licensing": {
+      "name": "许可",
+      "description": "软件许可和使用条款"
+    }
+  }
+}
